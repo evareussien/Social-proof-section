@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  color: #502050;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-images-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bg-img-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.inhoud-page {
+  position: relative;
+  padding: 120px 150px 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  color: #937B92;
+  line-height: 24px;
+}
+
+.top-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.top-left {
+  width: 35%;
+  margin-right: 50px;
+}
+
+.top-right {
+  width: 35%;
+  margin-left: 50px;
+}
+
+.stars-item {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 25px;
+  background-color: #F7F2F7;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.stars {
+  margin-right: 40px;
+}
+
+.text-stars {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.item1 {
+  position: relative;
+  left: -100px;
+}
+
+.item2 {
+  position: relative;
+  left: -50px;
+  margin: 15px 0;
+}
+
+.review-blocks-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.review-block {
+  width: 33%;
+  background-color: #502050;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 40px 40px;
+}
+
+.block2 {
+  margin: 0 30px;
+  position: relative;
+  top: 20px;
+}
+
+.block3 {
+  position: relative;
+  top: 40px;
+}
+
+.top-review {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.profilepic {
+  border-radius: 100px;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.name {
+  font-weight: 700;
+  color: white;
+}
+
+.verified {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+  color: #937B92;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.review-block-text {
+  color: white;
+  line-height: 24px;
+  font-size: 13px;
+}
